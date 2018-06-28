@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Spot</title>
+
+</head>
+<body>
+	<div class="page-header">
+			<h1>People</h1>
+
+		</div>
+	<div class="container">
+		<!-- menu icon-->
+		<nav class="navbar navbar-inverse">
+			<h1>
+			    <div class="container-fluid" onclick="myFunction(this)">
+			      <div class="bar1"></div>
+			      <div class="bar2"></div>
+			      <div class="bar3"></div>
+			      <!-- links inside menu-->
+			      <div id="myDropdown" class="dropdown-content hide">
+			        <a href="index.html">Home</a>
+			        <a href="live.html">Live</a>
+			      </div>
+			    </div>
+			 </h1>
+			 <div class="nav navbar-nav navbar-right">
+				<input type="submit" name="submit" value="Subscribe" class="btn btn-large" onclick="window.open('contact.html','_blank');">
+			</div>
+		</nav>
+
+		<image src="images/logo.jpg" id="logo"/>
+			 
+	</div>
+	
+  	<br><br>
+  	<div class="container desc">
+  		<h1>News</h1>
+		<br><br>
+		<div class="row">
+			<br><br>
+			<div class="col-lg-6 centered">
+				<a href="https://www.bbc.com/news/world-europe-44627129" target="_blank"><img src="images/logo1.jpg" style="width:80%; height: 280px;" alt=""></a>
+			</div><!-- col-lg-6 -->
+			<div class="col-lg-6">
+				<h4 class="text-warning">Poland Holocaust law: Government U-turn on jail threat </h4>
+				<p class="font-weight-bold">When Poland made it a criminal offence this year to accuse it of complicity in Nazi war crimes, there was an outcry in Europe, Israel and the US.</p>
+				<p>Posted 6 hours ago BBC.com</p>
+				
+			</div>
+		</div><!-- row -->
+		
+		<br><br>
+		<hr>
+		<br><br>
+
+		<div class="row">
+
+			<div class="col-lg-6 centered">
+				<a href="https://www.cnbc.com/2018/06/27/former-fox-news-co-pres-bill-shine-is-in-final-talks-with-trump-about-.html" target="_blank">
+				<img src="images/logo2.jpg" style="width:80%; height: 280px;" alt="">>
+				</a>
+				
+			</div><!-- col-lg-6 -->
+			<div class="col-lg-6">
+				<h4 class="text-warning">Former Fox News co-president Bill Shine is in advanced discussions about becoming White House communications director: Sources</h4>
+				<p class="font-weight-bold">Former co-president of Fox News Bill Shine is in final discussions with President Donald Trump's administration to become White House communications director, according to two people familiar with the matter.</p>
+				<p>Published 1 Hour Ago  Updated 14 Mins Ago</p>
+				
+			</div>
+		</div><!-- row -->
+
+		<br><br>
+		<hr>
+		<br><br>
+		<div class="row">
+			<div class="col-lg-6 centered">
+				<a href="https://www.food.news/2018-06-25-warning-shellfish-are-now-testing-positive-for-opioids.html" target="_blank">
+				<img src="images/logo3.jpg" style="width:80%; height: 280px;" alt=""></a>
+			</div><!-- col-lg-6 -->
+			<div class="col-lg-6">
+				<h4 class="text-warning">WARNING: Shellfish are now testing positive for opioids</h4>
+				<p class="font-weight-bold">The opioid epidemic in the United States has become so prolific that now even local shellfish are testing positive for Big Pharma’s most profitable (and most addictive) class of drugs. In Washington state, the Department of Fish and Wildlife recently found that opioids are making their way into the water and are affecting marine life.</p>
+				<p>06/25/2018 / By Vicki Batts</p>
+			</div>
+		</div><!-- row -->
+  	</div>
+  	<script>
+  		function myFunction(x) {
+  			x.classList.toggle("change");
+  			document.getElementById('myDropdown').classList.toggle("hide");
+		}
+		document.getElementById("myButton").onclick = function () {
+        location.href = "contact.html";
+    	};
+  		
+		
+  	</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
